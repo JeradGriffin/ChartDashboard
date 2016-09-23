@@ -1,0 +1,119 @@
+body {
+  background-color: #DCDCDC;
+}
+
+.m-l-xs {
+  margin-left: 5px !important;
+}
+
+.m-l-sm {
+  margin-left: 10px !important;
+}
+
+.m-t-xs {
+  margin-top: 5px !important;
+}
+
+.m-t-sm {
+  margin-top: 10px !important;
+}
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.m-r-xs {
+  margin-right: 5px !important;
+}
+
+.m-r-sm {
+  margin-right: 10px !important;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.npl {
+  padding-left: 0px !important;
+}
+
+.npr {
+  padding-right: 0px !important;
+}
+
+.pt30 {
+  padding-top: 30px !important;
+}
+
+.p-l-xs {
+  padding-left: 5px !important;
+}
+
+.p-r-xs {
+  padding-right: 5px !important;
+}
+
+.border-black {
+  border-color: black;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.fontWhite {
+  color: #fff;
+}
+
+.col-sm-1.white {
+  width: 140px !important;
+  border-radius: 4px;
+}
+
+.divWidth {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: -5px;
+}
+
+div {
+  border-radius: 4px !important;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0px !important;
+}
+
+.width30 {
+  width: 30%;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  border-radius: 0;
+}
+
+.pb90 {
+  padding-bottom: 90px !important;
+}
+
+.boxShadow {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}

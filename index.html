@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chart Dashboard</title>
+    <link rel="stylesheet" href="chartist.css">
+    <script src="js/chartist.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/mainController.js"></script>
+    <script type="text/javascript" src="js/chart2Controller.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </head>
+  <body ng-app="ChartDash" ng-controller="mainController">
+    <nav class="navbar navbar-inverse boxShadow">
+      <ul class=" text-center">
+        <a class="pull-left m-t-sm fontWhite"><span class="glyphicon glyphicon-th-large m-r-xs fontWhite"></span>Dashboard</a>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="col-sm-6">
+            <div class="col-sm-12 divWidth white boxShadow chart">
+              <h3>Chart Title</h3>
+              <div id="first" class="ct-chart1 ct-perfect-fourth border-black"></div>
+            </div>
+          </div>
+          <div class="col-sm-6" ng-controller="chart2Ctrl">
+            <div class="col-sm-12 divWidth white boxShadow chart">
+              <h3>Chart Title</h3>
+              <div id="second" class="ct-chart2 ct-perfect-fourth border-black"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt15">
+        <div class="col-sm-6 npr">
+          <div class="col-sm-6 p-r-xs">
+            <div class="col-sm-12 divWidth white boxShadow chart">
+              <h3>Chart Title</h3>
+              <div class="ct-chart ct-golden-section border-black pb90"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 p-l-xs">
+            <div class="col-sm-12 divWidth white boxShadow chartBar">
+              <h3>Chart Title</h3>
+              <div class="ct-chart3 ct-golden-section border-black pb90"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 npl">
+          <div class="col-sm-6 p-r-xs">
+            <div class="col-sm-12 divWidth white boxShadow chart">
+              <h3>Chart Title</h3>
+              <div class="ct-chart5 ct-golden-section border-black pb90"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 p-l-xs">
+            <div class="col-sm-12 divWidth white boxShadow chartBar">
+              <h3>Chart Title</h3>
+              <div class="ct-chart6 ct-golden-section border-black pb90"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </body>
+</html>
